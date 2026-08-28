@@ -1,0 +1,44 @@
+\begin{table}[!h]
+\centering
+ \caption{Entry into Managerial Labour Market by Race, UK Nationals Only}
+   \label{tab:entryregsspecanyuk}
+\footnotesize
+\scalebox{0.85}{
+\begin{threeparttable}
+\begin{tabular}{@{\extracolsep{15pt}}lcccccc}
+\\[-1.8ex]\hline
+\\[-1.8ex] Dependent variable: & \multicolumn{3}{c}{Any Job in Football} & \multicolumn{3}{c}{Pipeline Job} \\
+\\[-1.8ex] & All & All & in England & All & All & in England \\
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6)\\
+\hline \\[-1.8ex]
+ Black & $-$0.139$^{***}$ & $-$0.128$^{***}$ & $-$0.102$^{***}$ & $-$0.118$^{***}$ & $-$0.123$^{***}$ & $-$0.101$^{***}$ \\ 
+  & (0.021) & (0.020) & (0.020) & (0.020) & (0.020) & (0.019) \\ 
+  & & & & & \\ 
+ UK and Other &  & 0.098$^{***}$ & 0.068$^{***}$ &  & 0.080$^{***}$ & 0.049$^{**}$ \\ 
+  &  & (0.025) & (0.024) &  & (0.025) & (0.023) \\ 
+  & & & & & \\ 
+ Attacker &  & $-$0.238$^{***}$ & $-$0.238$^{***}$ &  & 0.010 & $-$0.008 \\ 
+  &  & (0.031) & (0.030) &  & (0.030) & (0.028) \\ 
+  & & & & & \\ 
+ Midfielder &  & $-$0.215$^{***}$ & $-$0.205$^{***}$ &  & 0.028 & 0.023 \\ 
+  &  & (0.029) & (0.028) &  & (0.028) & (0.027) \\ 
+  & & & & & \\ 
+ Defender &  & $-$0.199$^{***}$ & $-$0.204$^{***}$ &  & 0.038 & 0.019 \\ 
+  &  & (0.030) & (0.029) &  & (0.029) & (0.027) \\ 
+  & & & & & & \\ 
+Average $Y_{i}$ Non-Black & 0.29 & 0.29 & 0.25 & 0.25 & 0.25 & 0.22 \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex]
+Year of Birth FE & No & Yes & Yes & No & Yes & Yes \\
+Player performance & No & Yes & Yes & No & Yes & Yes \\
+Observations & 3,490 & 3,490 & 3,490 & 3,490 & 3,490 & 3,490 \\
+R$^{2}$ & 0.013 & 0.180 & 0.163 & 0.010 & 0.174 & 0.157 \\
+\hline
+\hline \\[-1.8ex]
+\end{tabular}
+\begin{tablenotes}[flushleft]
+		\item[] \scriptsize \textit{Notes:} This table repeats Table \ref{tab:entryregsspecany} on the subsample of former players holding a UK nationality, rather than controlling for nationality across the full sample. Columns (1)--(3) are for obtaining any non-playing job in football (anywhere, without controls in column 1 and with the full set of controls in column 2) and any non-playing job in England (column 3). Columns (4)--(6) are for holding a pipeline (managerial) role of manager, assistant manager, or youth-team management: anywhere without controls (4), anywhere with controls (5), and in England (6). Because the subsample conditions on holding a UK nationality, the foreign-only indicator is identically zero and is omitted; \textit{UK and Other} continues to separate dual nationals from UK-only nationals, who are the base category. Where included, further controls are fixed effects for year of birth, playing-position controls (attacker, midfielder, defender; base = goalkeeper), national-team experience and national-team appearances, and playing-performance statistics from Tier 1, Tier 2, and lower tiers in England (hours played, goals, assists). Coefficients for the player career variables are omitted from the output, but available on request. Significance is indicated as follows: * p-value$<$ 0.1; ** p-value$<$ 0.05; *** p-value$<$ 0.01.
+		\end{tablenotes}
+  \end{threeparttable}
+  }
+\end{table}

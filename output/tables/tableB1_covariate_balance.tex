@@ -1,0 +1,39 @@
+\begin{table}[!h]
+\centering
+\caption{Covariate Balance Before and After Matching with Differences} 
+\label{tab:balance}
+\footnotesize
+%\hspace*{-0.5cm}
+
+\begin{threeparttable}
+\begin{tabular}{lrrlrrl}
+  \toprule
+  & \multicolumn{3}{c}{Before Matching} & \multicolumn{3}{c}{After Matching}\\
+  \cline{2-4} \cline{5-7}
+Covariate & Black & Non-Black & Difference & Black & Non-Black & Difference \\ 
+  \midrule
+  Hours Played Tier 1 & 50.07 & 44.11 & 5.955 & 50.07 & 45.35 & 4.714 \\ 
+  Goals Tier 1 & 5.15 & 3.49 & 1.655*** & 5.15 & 3.80 & 1.351* \\ 
+  Assists Tier 1 & 1.56 & 1.30 & 0.261 & 1.56 & 1.25 & 0.307 \\ 
+  Hours Played Tier 2 & 31.80 & 30.75 & 1.059 & 31.80 & 28.29 & 3.517 \\ 
+  Goals Tier 2 & 3.19 & 2.31 & 0.877** & 3.19 & 2.50 & 0.689 \\ 
+  Assists Tier 2 & 0.46 & 0.33 & 0.13* & 0.46 & 0.40 & 0.067 \\ 
+  Hours Played Tier $>$ 2 & 36.95 & 38.70 & -1.753 & 36.95 & 35.74 & 1.204 \\ 
+  Goals Tier $>$ 2 & 3.46 & 2.84 & 0.624* & 3.46 & 3.02 & 0.435 \\ 
+  Assists Tier $>$ 2 & 0.94 & 0.83 & 0.111 & 0.94 & 0.81 & 0.131 \\ 
+  Attacker & 0.42 & 0.23 & 0.189*** & 0.42 & 0.39 & 0.026 \\ 
+  Midfielder & 0.26 & 0.33 & -0.072*** & 0.26 & 0.26 & 0.001 \\ 
+  Defender & 0.30 & 0.35 & -0.047*** & 0.30 & 0.33 & -0.024 \\ 
+  UK Only & 0.45 & 0.70 & -0.254*** & 0.45 & 0.43 & 0.02 \\ 
+  UK and Other & 0.20 & 0.05 & 0.151*** & 0.20 & 0.18 & 0.017 \\ 
+  Foreign & 0.35 & 0.25 & 0.103*** & 0.35 & 0.39 & -0.037* \\ 
+  Played for National Team & 0.33 & 0.23 & 0.104*** & 0.33 & 0.30 & 0.03 \\ 
+  Games Played for National Team & 8.21 & 7.26 & 0.949 & 8.21 & 7.70 & 0.517 \\ 
+   \bottomrule
+\end{tabular}
+	\begin{tablenotes}[flushleft]
+		\item[] \scriptsize \textit{Notes:} This table shows the pre and post matching differences in the control variables used throughout this paper. Significance is indicated as follows: * p-value\(<\) 0.1; ** p-value\(<\) 0.05; *** p-value\(<\) 0.01.
+		\end{tablenotes}
+  \end{threeparttable}
+  
+\end{table}

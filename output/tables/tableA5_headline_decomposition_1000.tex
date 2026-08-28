@@ -1,0 +1,23 @@
+\begin{table}[!h]
+\centering
+\caption{Counterfactual Decomposition of Manager Prevalence}
+\label{tab:headline_decomposition}
+\footnotesize
+\begin{threeparttable}
+\begin{tabular}{llrrrrrrrr}
+\toprule
+State & Year & Black SA & NB SA & C1 & C2 & C3 & Gap C1 & Gap C2 & Gap C3 \\ 
+\midrule
+Manager England & 3 & 0.5 & 2.1 & 1.2 & 0.8 & 2.0 & 46\% & 16\% & 92\% \\ 
+Manager England & 6 & 0.4 & 2.5 & 0.9 & 1.1 & 2.5 & 21\% & 34\% & 99\% \\ 
+Manager England & 10 & 0.3 & 2.9 & 0.5 & 1.5 & 3.0 & 8\% & 47\% & 101\% \\ 
+Manager ROW & 3 & 1.1 & 2.4 & 2.5 & 1.2 & 2.7 & 108\% & 7\% & 127\% \\ 
+Manager ROW & 6 & 1.5 & 3.1 & 2.8 & 1.9 & 3.6 & 80\% & 24\% & 130\% \\ 
+Manager ROW & 10 & 1.7 & 3.6 & 2.4 & 2.7 & 4.2 & 38\% & 54\% & 130\% \\ 
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\item[] \scriptsize \textit{Notes:} Entries report simulated manager prevalence, expressed as percentages of former players, at the closest available 14-day interval to years 3, 6, and 10 after the end of the playing career. SA denotes simulated actual prevalence and NB denotes non-Black. C1 sets the entry process for Black former players to the non-Black process until first observed employment; C2 sets post-entry progression to the non-Black process; C3 sets both entry and progression to the non-Black process. Gap closed is calculated as $(\mathrm{C}k - \mathrm{Black\ SA})/(\mathrm{NB\ SA} - \mathrm{Black\ SA})$ and may exceed 100\% when a counterfactual overshoots non-Black simulated prevalence. The table reports point estimates from the existing simulation output and does not include parameter-uncertainty intervals.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

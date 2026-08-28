@@ -1,0 +1,66 @@
+Copyright (c) 2026 Sam Hoey, Thomas Peeters and Stefan Szymanski
+
+Replication package for "Racial Gaps in Managerial Career Advancement".
+
+This package contains both software and data. They are released under different
+terms, set out below.
+
+
+SOFTWARE
+
+The four R scripts in this repository are released under the MIT License. They
+are "HPS Data preparation.R", "HPS Simulation preparation.R",
+"HPS Racial Gaps.R" and "HPS Simulation results.R".
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions.
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+DATA
+
+The data files distributed in data/, and the tables and figures in output/, are
+released under the Creative Commons Attribution 4.0 International License
+(CC BY 4.0), available at https://creativecommons.org/licenses/by/4.0/.
+
+You are free to share and adapt this material for any purpose, including
+commercially, provided that you give appropriate credit, provide a link to the
+license, and indicate if changes were made. Attribution should cite the paper.
+
+
+THIRD PARTY DATA
+
+The playing and coaching career records and the match results in data/source are
+derived from publicly visible pages on www.transfermarkt.com. The terms above
+cover the authors' compilation, cleaning, coding and pseudonymisation of that
+material. They do not and cannot grant rights in the underlying source data,
+which remains subject to whatever terms its original publisher applies. Users
+who intend to redistribute the source data, as opposed to using it to reproduce
+the results in the paper, should satisfy themselves as to those terms.
+
+The race codings are derived from a picture survey run by the authors. Only
+aggregated vote shares and majority classifications are distributed. Individual
+respondent identities are not included.
+
+
+PSEUDONYMISATION
+
+Player, coach and club names, profile URLs and exact dates of birth have been
+replaced by stable pseudonyms. Only the year of birth is retained. This removes
+direct identifiers, but it is pseudonymisation rather than anonymisation. Match
+results are public record, so a determined party with access to the original
+sources could in principle re-identify clubs from fixture sequences, and coaches
+from spell dates at those clubs. Users should not attempt re-identification.

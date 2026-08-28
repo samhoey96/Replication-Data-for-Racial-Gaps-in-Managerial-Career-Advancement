@@ -1,0 +1,47 @@
+\begin{table}[!h]
+\centering
+ \caption{Entry into Executive Labour Market by Race --- Logit}
+   \label{tab:entryregsspecanylogit}
+\footnotesize
+\scalebox{0.85}{
+\begin{threeparttable}
+\begin{tabular}{@{\extracolsep{15pt}}lcccccc}
+\\[-1.8ex]\hline
+\\[-1.8ex] Dependent variable: & \multicolumn{3}{c}{Any Job in Football} & \multicolumn{3}{c}{Pipeline Job} \\
+\\[-1.8ex] & All & All & in England & All & All & in England \\
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6)\\
+\hline \\[-1.8ex]
+ Black & $-$0.732$^{***}$ & $-$0.847$^{***}$ & $-$0.748$^{***}$ & $-$0.642$^{***}$ & $-$0.778$^{***}$ & $-$0.863$^{***}$ \\ 
+  & (0.094) & (0.110) & (0.142) & (0.098) & (0.113) & (0.154) \\ 
+  & & & & & \\ 
+ UK and Other &  & 0.655$^{***}$ & 0.498$^{***}$ &  & 0.595$^{***}$ & 0.437$^{***}$ \\ 
+  &  & (0.148) & (0.160) &  & (0.151) & (0.168) \\ 
+  & & & & & \\ 
+ Foreign &  & 0.653$^{***}$ & $-$1.015$^{***}$ &  & 0.514$^{***}$ & $-$1.152$^{***}$ \\ 
+  &  & (0.096) & (0.135) &  & (0.101) & (0.154) \\ 
+  & & & & & \\ 
+ Attacker &  & $-$1.165$^{***}$ & $-$1.480$^{***}$ &  & 0.237 & $-$0.082 \\ 
+  &  & (0.149) & (0.172) &  & (0.179) & (0.218) \\ 
+  & & & & & \\ 
+ Midfielder &  & $-$0.939$^{***}$ & $-$1.156$^{***}$ &  & 0.423$^{**}$ & 0.205 \\ 
+  &  & (0.139) & (0.153) &  & (0.171) & (0.203) \\ 
+  & & & & & \\ 
+ Defender &  & $-$0.909$^{***}$ & $-$1.196$^{***}$ &  & 0.451$^{***}$ & 0.117 \\ 
+  &  & (0.141) & (0.157) &  & (0.173) & (0.206) \\ 
+  & & & & & & \\ 
+Average $Y_{i}$ Non-Black & 0.33 & 0.33 & 0.21 & 0.29 & 0.29 & 0.18 \\ 
+  & & & & & & \\ 
+\hline \\[-1.8ex]
+Year of Birth FE & No & Yes & Yes & No & Yes & Yes \\
+Player performance & No & Yes & Yes & No & Yes & Yes \\
+Observations & 4,770 & 4,770 & 4,770 & 4,770 & 4,770 & 4,770 \\
+McFadden R$^{2}$ & 0.011 & 0.170 & 0.180 & 0.009 & 0.158 & 0.188 \\
+\hline
+\hline \\[-1.8ex]
+\end{tabular}
+\begin{tablenotes}[flushleft]
+		\item[] \scriptsize \textit{Notes:} This table presents logit regression results. Columns (1)--(3) are for obtaining any non-playing job in football (anywhere, without controls in column 1 and with the full set of controls in column 2) and any non-playing job in England (column 3). Columns (4)--(6) are for holding a pipeline (managerial) role of manager, assistant manager, or youth-team management: anywhere without controls (4), anywhere with controls (5), and in England (6). Where included, controls are fixed effects for year of birth, nationality status (base category = UK-only citizen), playing-position controls (attacker, midfielder, defender; base = goalkeeper), national-team experience and national-team appearances, and playing-performance statistics from Tier 1, Tier 2, and lower tiers in England (hours played, goals, assists). Coefficients for the player career variables are omitted from the output, but available on request. Significance is indicated as follows: * p-value$<$ 0.1; ** p-value$<$ 0.05; *** p-value$<$ 0.01.
+		\end{tablenotes}
+  \end{threeparttable}
+  }
+\end{table}

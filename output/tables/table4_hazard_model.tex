@@ -1,0 +1,46 @@
+\begin{table}[!htbp]
+\centering
+\caption{Cox hazard model for leaving a job}
+\label{tab:hazard_final}
+\footnotesize
+\setlength\tabcolsep{3pt}
+\begin{threeparttable}
+\begin{tabular}{lcccccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+ & \multicolumn{6}{c}{\textit{Dependent variable: log(Hazard) (leaving job)}} \\
+& \multicolumn{4}{c}{Manager (1-4)} & \multicolumn{2}{c}{Asst. Manager (5-6)}\\
+\cline{2-5} \cline{6-7}
+& England & ROW & England & ROW & England & ROW\\
+\\[-1.8ex] & (1) & (2) & (3) & (4) & (5) & (6)\\
+\hline \\[-1.8ex]
+Black & 0.368$^{**}$ & 0.109$^{}$ & $-$0.110$^{}$ & $-$0.011$^{}$ & 0.254$^{*}$ & 0.114$^{}$ \\ 
+  & (0.161) & (0.129) & (0.269) & (0.152) & (0.131) & (0.130) \\ 
+ & & & & & & \\ 
+UK and other nationality &  &  & 0.109$^{}$ & 0.390$^{***}$ & $-$0.009$^{}$ & 0.015$^{}$ \\ 
+  &  &  & (0.110) & (0.133) & (0.108) & (0.156) \\ 
+ & & & & & & \\ 
+Foreign &  &  & 0.426$^{***}$ & 0.381$^{***}$ & 0.061$^{}$ & 0.219$^{**}$ \\ 
+  &  &  & (0.130) & (0.076) & (0.111) & (0.088) \\ 
+ & & & & & & \\ 
+-Cumulative Points &  &  & 0.171$^{***}$ & 0.100$^{***}$ & 0.105$^{***}$ & 0.059$^{***}$ \\ 
+  &  &  & (0.008) & (0.006) & (0.007) & (0.008) \\ 
+ & & & & & & \\ 
+-Cumulative Points $\times$ Black &  &  & 0.095$^{**}$ & 0.009$^{}$ & $-$0.020$^{}$ & 0.030$^{}$ \\ 
+  &  &  & (0.042) & (0.024) & (0.024) & (0.022) \\ 
+ & & & & & & \\ 
+Experience at start of job &  &  & 0.0007$^{***}$ & 0.0003$^{}$ & 0.0009$^{***}$ & 0.0010$^{***}$ \\ 
+  &  &  & (0.0002) & (0.0002) & (0.0002) & (0.0003) \\ 
+\hline \\[-1.8ex]
+Observations & 63,727 & 46,773 & 62,963 & 44,510 & 80,993 & 37,391 \\ 
+Job spells & 983 & 1,187 & 971 & 1,142 & 1,303 & 788 \\ 
+Black job exits & 41 & 64 & 41 & 64 & 89 & 80 \\ 
+Pseudo-R$^{2}$ & 0.0001 & 0.0000 & 0.009 & 0.007 & 0.004 & 0.002 \\ 
+\hline
+\hline \\[-1.8ex]
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\item[] \scriptsize \textit{Notes:} Cox proportional hazard models for the hazard of leaving a job. Coefficients are log hazard ratios; exponentiating gives the hazard ratio. Columns 1--4 cover manager spells and columns 5--6 assistant manager spells. Within each block England columns are spells at English clubs and ROW columns spells at clubs elsewhere. Columns 1 and 2 have no controls, columns 3--6 add cumulative points, cumulative points interacted with the Black indicator, managerial experience at the start of the spell and nationality dummies. Cumulative points over the last ten games is mean-centred within each column and enters with a negative sign, so that a higher value denotes worse performance. In columns 3--6 the Black coefficient is therefore the racial gap in the exit hazard at average performance, and the interaction is the additional gap opened by a one-point shortfall over ten games. Nationality dummies have UK-only nationals as the omitted reference category. An observation is a game within a job spell. Only spells with at least ten games enter the model. Standard errors in parentheses. * p$<$0.1; ** p$<$0.05; *** p$<$0.01.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}

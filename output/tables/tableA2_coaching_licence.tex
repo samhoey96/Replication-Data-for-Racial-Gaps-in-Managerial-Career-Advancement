@@ -1,0 +1,64 @@
+\begin{table}[!h]
+\centering
+ \caption{Obtaining Coaching Licence by Race}
+   \label{tab:degree}
+\footnotesize
+\scalebox{0.9}{
+\begin{threeparttable}
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{Obtained any Coaching Licence} \\ 
+\\[-1.8ex] & (1) & (2) & (3)\\ 
+\hline \\[-1.8ex] 
+Black  &  $-$0.054$^{***}$ & $-$0.066$^{***}$ & $-$0.060$^{***}$  \\ 
+  &  (0.012) & (0.012) & (0.012)  \\ 
+  & & & \\ 
+UK and Other  &   & 0.116$^{***}$ & 0.077$^{***}$  \\ 
+  &   & (0.018) & (0.018)  \\ 
+  & & & \\ 
+Foreign  &   & 0.104$^{***}$ & 0.054$^{***}$  \\ 
+  &   & (0.011) & (0.012)  \\ 
+  & & & \\ 
+Attacker  &   &  & $-$0.052$^{***}$  \\ 
+  &   &  & (0.020)  \\ 
+  & & & \\ 
+Midfielder  &   &  & $-$0.021  \\ 
+  &   &  & (0.019)  \\ 
+  & & & \\ 
+Defender  &   &  & $-$0.041$^{**}$  \\ 
+  &   &  & (0.019)  \\ 
+  & & & \\ 
+Hours Played Tier 1  &   &  & 0.0002$^{**}$  \\ 
+  &   &  & (0.0001)  \\ 
+  & & & \\ 
+Hours Played Tier 2  &   &  & 0.0002$^{**}$  \\ 
+  &   &  & (0.0001)  \\ 
+  & & & \\ 
+Hours Played Tier $>$ 2  &   &  & 0.0001  \\ 
+  &   &  & (0.0001)  \\ 
+  & & & \\ 
+Played for National Team  &   &  & 0.031$^{**}$  \\ 
+  &   &  & (0.015)  \\ 
+  & & & \\ 
+Games Played for National Team  &   &  & 0.003$^{***}$  \\ 
+  &   &  & (0.0003)  \\ 
+  & & & \\ 
+Constant  &  0.124$^{***}$ &  &   \\ 
+  &  (0.005) &  &   \\ 
+  & & & \\ 
+\hline \\[-1.8ex] 
+Year of Birth FE & No & Yes & Yes \\ 
+Observations &  4,770 & 4,770 & 4,770  \\ 
+R$^{2}$ &  0.004 & 0.057 & 0.096  \\ 
+\hline 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\begin{tablenotes}[flushleft]
+\item[] \scriptsize \textit{Notes:} The table reports regressions of an indicator for having obtained any coaching licence. Column 1 includes only the Black indicator (raw racial difference). Column 2 adds year-of-birth fixed effects and nationality controls: indicators for UK citizens with a second non-UK citizenship (``UK and Other'') and for foreign (non-UK) citizenship (base category = UK-only citizen). Column 3 further adds playing-position dummies (attacker, midfielder, defender; base = goalkeeper), tiered playing-time measures (hours in Tier 1, Tier 2, and lower tiers), and national-team experience (Played for National Team and Games Played for National Team). Coefficients for goals and assists by tier are included in the regressions but omitted from the table for brevity. Standard errors in parentheses. * p-value $<$ 0.1; ** p-value $<$ 0.05; *** p-value $<$ 0.01.
+\end{tablenotes}
+\end{threeparttable}
+}
+\end{table}

@@ -1,0 +1,15 @@
+# macOS finder metadata, recreated whenever a folder is opened
+.DS_Store
+
+# R session artefacts. The scripts setwd() into data/, so these land there
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+Rplots.pdf
+
+# ggsave writes this as an intermediate before magick rewrites it
+temp.png
+
+# RStudio
+.Rproj.user/

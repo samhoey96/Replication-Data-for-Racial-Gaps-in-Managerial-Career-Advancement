@@ -1,0 +1,58 @@
+\begin{table}[!htbp]
+\centering
+\caption{Duration Analysis Spell Coverage by Country}
+\label{tab:coverage_merged}
+\footnotesize
+\setlength\tabcolsep{4pt}
+\begin{threeparttable}
+\begin{tabular}{lcccccc}
+\\[-1.8ex]\hline
+\hline \\[-1.8ex]
+ & \multicolumn{3}{c}{Manager} & \multicolumn{3}{c}{Assistant Manager} \\
+\cline{2-4} \cline{5-7}
+Country & Spells & Covered & \% & Spells & Covered & \% \\
+\hline \\[-1.8ex]
+England & 1,332 & 981 & 73.6\% & 2,177 & 1,341 & 61.6\% \\ 
+Scotland & 192 & 156 & 81.2\% & 280 & 160 & 57.1\% \\ 
+United States & 102 & 76 & 74.5\% & 106 & 86 & 81.1\% \\ 
+Netherlands & 74 & 38 & 51.4\% & 90 & 59 & 65.6\% \\ 
+France & 66 & 51 & 77.3\% & 65 & 47 & 72.3\% \\ 
+Wales & 73 & 55 & 75.3\% & 42 & 34 & 81.0\% \\ 
+Italy & 65 & 37 & 56.9\% & 31 & 28 & 90.3\% \\ 
+Norway & 65 & 48 & 73.8\% & 30 & 22 & 73.3\% \\ 
+Ireland & 51 & 29 & 56.9\% & 38 & 26 & 68.4\% \\ 
+Germany & 54 & 37 & 68.5\% & 34 & 21 & 61.8\% \\ 
+Australia & 50 & 34 & 68.0\% & 36 & 22 & 61.1\% \\ 
+Spain & 51 & 32 & 62.7\% & 26 & 18 & 69.2\% \\ 
+Denmark & 39 & 27 & 69.2\% & 33 & 28 & 84.8\% \\ 
+Sweden & 46 & 27 & 58.7\% & 21 & 15 & 71.4\% \\ 
+Portugal & 46 & 22 & 47.8\% & 18 & 12 & 66.7\% \\ 
+Greece & 46 & 28 & 60.9\% & 13 & 11 & 84.6\% \\ 
+Belgium & 38 & 27 & 71.1\% & 20 & 11 & 55.0\% \\ 
+Poland & 45 & 31 & 68.9\% & 8 & 5 & 62.5\% \\ 
+Iceland & 37 & 30 & 81.1\% & 15 & 9 & 60.0\% \\ 
+Northern Ireland & 32 & 17 & 53.1\% & 16 & 11 & 68.8\% \\ 
+India & 27 & 20 & 74.1\% & 15 & 8 & 53.3\% \\ 
+Argentina & 30 & 20 & 66.7\% & 12 & 6 & 50.0\% \\ 
+Cyprus & 30 & 16 & 53.3\% & 9 & 5 & 55.6\% \\ 
+South Africa & 20 & 14 & 70.0\% & 15 & 12 & 80.0\% \\ 
+Romania & 33 & 19 & 57.6\% & 1 & 0 & 0.0\% \\ 
+Brazil & 25 & 16 & 64.0\% & 9 & 7 & 77.8\% \\ 
+Turkey & 18 & 12 & 66.7\% & 15 & 14 & 93.3\% \\ 
+Austria & 16 & 8 & 50.0\% & 13 & 10 & 76.9\% \\ 
+Saudi Arabia & 18 & 13 & 72.2\% & 9 & 5 & 55.6\% \\ 
+Switzerland & 22 & 19 & 86.4\% & 3 & 3 & 100.0\% \\ 
+Finland & 18 & 14 & 77.8\% & 7 & 6 & 85.7\% \\ 
+Other countries & 373 & 214 & 57.4\% & 169 & 125 & 74.0\% \\ 
+\hline \\[-1.8ex]
+\textbf{England (total)} & \textbf{1,332} & \textbf{981} & \textbf{73.6\%} & \textbf{2,177} & \textbf{1,341} & \textbf{61.6\%} \\ 
+\textbf{Rest of world (total)} & \textbf{1,802} & \textbf{1,187} & \textbf{65.9\%} & \textbf{1,199} & \textbf{826} & \textbf{68.9\%} \\ 
+\textbf{All spells} & \textbf{3,134} & \textbf{2,168} & \textbf{69.2\%} & \textbf{3,376} & \textbf{2,167} & \textbf{64.2\%} \\ 
+\hline
+\hline \\[-1.8ex]
+\end{tabular}
+\begin{tablenotes}[flushleft]
+\item[] \scriptsize \textit{Notes:} Eligible spells are manager and assistant manager job spells in \texttt{coachdata} that start in 1990 or later and belong to a coach whose race is coded. A spell counts as covered when at least ten of its games are found in the game data, the threshold required to construct the cumulative points control. Countries with fewer than 25 eligible spells are pooled into \textit{Other countries}. Rows are ordered by number of eligible spells, with England first and the pooled group last. National team spells are excluded throughout: they are not club jobs, and youth national sides do carry fixtures on Transfermarkt, so leaving them in would admit a handful of spells that do not belong in the sample.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
